@@ -1,0 +1,46 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'movies.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:shake/shake.dart';
+import 'dart:math';
+import 'dart:convert';
+
+void main() {
+  runApp(const MainApp());
+}
+class MainApp extends StatefulWidget {
+  const MainApp({super.key});
+
+
+  @override
+    MainAPP createState() => MainAPP();
+}
+  class MainAPP extends State<MainApp> {
+  List<Filmes> filmes=List.empty();
+  late ShakeDetector _detector;
+  late int total;
+  
+ Future<void> readJson() async {
+  
+    final String response = await rootBundle.loadString('assets/Movies.json');
+     Iterable data = await json.decode(response);
+    filmes =  List<Filmes>.from(data.map((model)=> Filmes.fromJson(model)));
+    total = filmes.length;
+    setState(() {
+      filmes;
+      total;
+    });
+    
+ }
+
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text(''  ),
+        ),
+      ),
+    );
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "nome": "Psycho",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWY5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "sinopse": "A Phoenix secretary embezzles $40,000 from her employer and goes on the run, checking into a remote motel run by a young man under the domination of his mother.",
+    "rate": "8.5",
+    "duracao": "109 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Alien",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmJkNmViXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "sinopse": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission.",
+    "rate": "8.5",
+    "duracao": "117 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Shining",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "sinopse": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings.",
+    "rate": "8.4",
+    "duracao": "146 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Thing",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "sinopse": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+    "rate": "8.2",
+    "duracao": "109 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Exorcist",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BYWFlZGY2NDktY2ZjOS00ZWNkLTg0ZDAtZDY4MTM1ODU4ZjljXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "sinopse": "When a young girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+    "rate": "8.1",
+    "duracao": "122 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Jaws",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzIyLWFkYjMtZjAwM2EwODViZjM0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "sinopse": "A giant great white shark terrorizes a small beach town, prompting a local sheriff, a marine biologist, and a fisherman to hunt it down.",
+    "rate": "8.1",
+    "duracao": "124 min",
+    "idade": "PG"
+  },
+  {
+    "nome": "Rosemary's Baby",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BOTNjODZkYzMtNjEtMmI3ZC00YzMwLTgzM2UtNzZhZjI3NGVmM2E0XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+    "sinopse": "A young couple moves into an apartment only to be surrounded by peculiar neighbors and occurrences, leading to suspicions about the baby she is carrying.",
+    "rate": "8.0",
+    "duracao": "137 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Nosferatu",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTAxYjEyMTctZDUxMy00ZTljLWIxMjctYzYyOWE4YWNiNjIxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "sinopse": "Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife.",
+    "rate": "7.9",
+    "duracao": "94 min",
+    "idade": "Not Rated"
+  },
+  {
+    "nome": "Get Out",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX300.jpg",
+    "sinopse": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+    "rate": "7.8",
+    "duracao": "104 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Let the Right One In",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BOWM4NTY2NTMtZDZlZS00NTgyLWEzZDMtODE3ZGI1YjQ0N2U5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "sinopse": "A bullied young boy befriends a young female vampire who lives in secrecy with her guardian.",
+    "rate": "7.8",
+    "duracao": "114 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Halloween",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "sinopse": "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield to kill again.",
+    "rate": "7.7",
+    "duracao": "91 min",
+    "idade": "R"
+  },
+  {
+    "nome": "28 Days Later",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BYTFkM2ViMmQtZmI5NS00MjQ2LWEyNGEtMTQyMjdlMmU4Y2YyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "sinopse": "Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.",
+    "rate": "7.5",
+    "duracao": "113 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Conjuring",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDMyNTMwOQ@@._V1_SX300.jpg",
+    "sinopse": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    "rate": "7.5",
+    "duracao": "112 min",
+    "idade": "R"
+  },
+  {
+    "nome": "A Nightmare on Elm Street",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODAtZmNjMC00NjhjLTkyZjUtOTNiOWYxMTYyNzQyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "sinopse": "Teenagers in a small town are terrorized by a dream-invading psychopath with a bladed glove.",
+    "rate": "7.4",
+    "duracao": "91 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Texas Chain Saw Massacre",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BZDI3ZDVmMGYtN2RkNS00NTQ4LTk0ZTYtYTlhMjM5YzM0YzQwXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+    "sinopse": "Five friends visiting their grandfather's house in the country are hunted and terrorized by a chainsaw-wielding killer and his family of cannibals.",
+    "rate": "7.4",
+    "duracao": "83 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Scream",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_SX300.jpg",
+    "sinopse": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using horror films as part of a deadly game.",
+    "rate": "7.4",
+    "duracao": "111 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Hereditary",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BOTMzNjM0NTUtYThkZS00MTM2LWIwZjQtYzlkZTViZmM5NjRjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "sinopse": "After the family matriarch passes away, a grieving family is haunted by tragic and disturbing occurrences—and begins to unravel dark secrets.",
+    "rate": "7.3",
+    "duracao": "127 min",
+    "idade": "R"
+  },
+  {
+    "nome": "Suspiria",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY3YjcyNTZmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "sinopse": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
+    "rate": "7.3",
+    "duracao": "99 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Descent",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjA5NzQ1NTY2NV5BMl5BanBnXkFtZTcwNjUxMzUzMw@@._V1_SX300.jpg",
+    "sinopse": "A caving expedition goes horribly wrong, as the explorers become trapped and ultimately pursued by a strange breed of predators.",
+    "rate": "7.2",
+    "duracao": "99 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Ring",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_SX300.jpg",
+    "sinopse": "A journalist investigates a mysterious videotape that seems to cause the death of anyone within a week of viewing it.",
+    "rate": "7.1",
+    "duracao": "115 min",
+    "idade": "PG-13"
+  },
+  {
+    "nome": "The Witch",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxMF5BMl5BanBnXkFtZTgwMzc1OTcxNjE@._V1_SX300.jpg",
+    "sinopse": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.",
+    "rate": "7.0",
+    "duracao": "92 min",
+    "idade": "R"
+  },
+  {
+    "nome": "It Follows",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMjM3NjkzNzI3Nl5BMl5BanBnXkFtZTgwNTkxMTU1NDE@._V1_SX300.jpg",
+    "sinopse": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+    "rate": "6.8",
+    "duracao": "100 min",
+    "idade": "R"
+  },
+  {
+    "nome": "The Babadook",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MjE@._V1_SX300.jpg",
+    "sinopse": "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled 'Mister Babadook' manifests in their home.",
+    "rate": "6.8",
+    "duracao": "94 min",
+    "idade": "Not Rated"
+  },
+  {
+    "nome": "The Blair Witch Project",
+    "imagem": "https://m.media-amazon.com/images/M/MV5BNzJiZDRmMTEtNjQyNy00M2RiLWJjMmItN2ZkNTNhNzM5MTM5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "sinopse": "Three film students vanish after traveling into a Maryland forest to film a documentary on the local Blair Witch legend, leaving only their footage behind.",
+    "rate": "6.5",
+    "duracao": "81 min",
+    "idade": "R"
+  }
+]
