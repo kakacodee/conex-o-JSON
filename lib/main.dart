@@ -17,30 +17,35 @@ class MainApp extends StatefulWidget {
     MainAPP createState() => MainAPP();
 }
   class MainAPP extends State<MainApp> {
-  List<Filmes> filmes=List.empty();
+  List<Filmes> filmes = List.empty();
   late ShakeDetector _detector;
-  late int total;
+
   
  Future<void> readJson() async {
-  
     final String response = await rootBundle.loadString('assets/Movies.json');
      Iterable data = await json.decode(response);
-    filmes =  List<Filmes>.from(data.map((model)=> Filmes.fromJson(model)));
-    total = filmes.length;
     setState(() {
-      filmes;
-      total;
+      filmes =  List<Filmes>.from(data.map((model)=> Filmes.fromJson(model)));
     });
-    
  }
+  @override
+  void initState() {
+    super.initState();
+    readJson();
+  }
+ 
+
+ 
 
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text(''  ),
+          child: filmes.isEmpty
+          ? Text('Carregando filmes...')
+          : Text(filmes[0].nome),
         ),
       ),
     );
   }
-}
+  }

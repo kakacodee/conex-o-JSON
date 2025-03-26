@@ -1,4 +1,5 @@
-import 'dart:nativewrappers/_internal/vm/lib/ffi_native_type_patch.dart';
+import 'dart:convert';
+
 
 class Filmes {
 
@@ -13,7 +14,7 @@ class Filmes {
     nome ="";
     imagem = "";
     sinopse = "";
-    rate = 0;
+    rate = 0.0;
     duracao = "";
     idade = "";
   }
@@ -38,3 +39,4 @@ class Filmes {
 
   };
 }
+ 
