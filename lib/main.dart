@@ -1,58 +1,61 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'movies.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:shake/shake.dart';
-import 'dart:math';
 import 'dart:convert';
 
 void main() {
-  runApp(const MaterialApp(title: "App",
-      home: MainApp(),));
+  runApp(const MaterialApp(title: "App", home: MainApp()));
 }
+
 class MainApp extends StatefulWidget {
   const MainApp({super.key});
 
-
   @override
-    MainAppState createState() => MainAppState();
+  MainAppState createState() => MainAppState();
 }
-  class MainAppState extends State<MainApp> {
-  List<Filmes> filmes = [];
-  late ShakeDetector _detector;
 
-  
- Future<void> readJson() async {
-     final String response = await rootBundle.loadString('assets/Movies.json');
-     Iterable data = await jsonDecode(response);
+class MainAppState extends State<MainApp> {
+  List<dynamic> filmes = [];
+   int total = 0; 
+  Future<void> readJson() async {
+    final String response = await rootBundle.loadString('assets/Movies.json');
+     Iterable data = json.decode(response);
+    
     setState(() {
-      filmes =  List<Filmes>.from(data.map((model) => Filmes.fromJson(model)));
+      filmes = List<dynamic>.from(data.map((model) => Filmes.fromJson(model)));
+      total = filmes.length;
     });
- }
+  }
+
   @override
   void initState() {
     super.initState();
     readJson();
   }
- 
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return filmes.isEmpty
+    ?
+    const Center(child: CircularProgressIndicator()) 
+    :
+    MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text("Movies")),
         body: Center(
-          child: filmes.isEmpty
-              ? const CircularProgressIndicator()
-              : ListView.builder(
-                  itemCount: filmes.length,
-                  itemBuilder: (context, index) {
-                    return ListTile(
-                      title: Text(filmes[index].nome),
-                      subtitle: Text(filmes[index].sinopse),
-                    );
-                  },
-                ),
-        ),
+          child: Column(
+            children: [
+              Image(image: AssetImage(filmes[0].imagem)),
+              ListTile(
+              title: Text(filmes.isNotEmpty ? filmes[0].nome : "Nenhum filme encontrado"),),
+              ListTile(leading: Image(image: AssetImage(filmes[1].imagem)),
+              title: Text(filmes.isNotEmpty ? filmes[1].nome : "Nenhum filme encontrado"),
+              subtitle: Text(filmes.isNotEmpty ? filmes[1].sinopse : "Nenhum filme encontrado"),),
+              
+              
+            ],
+          ),
+        )
       ),
     );
   }
